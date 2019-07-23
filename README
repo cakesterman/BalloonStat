@@ -11,3 +11,5 @@ zone is a heavily wooded area with a high chance that the balloon will get stuck
 
 Current setup is an Arduino Uno with the interface using a Raspberry Pi 3.  The Arduino 
 is connected to a Ham Shield Mini, to receive signals, and a servo.
+
+DTMF Core code sourced from: https://github.com/enhancedradiodevices/hamshield
