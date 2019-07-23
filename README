@@ -1,0 +1,13 @@
+Balloon Stat Project
+
+Code for receiving a signal from a Dual Band FM Transceiver, processing the transmitted 
+code and activating a servo on the Balloon Stat to cut the string between the balloon 
+and the hardware.  
+
+Intended use is for early release to prevent situations where the Balloon Stat will not 
+be retrievable.  For example: If the projected landing area is in a body of water early 
+release of the payload will allow the data to be retrieved. Also if the projected landing
+zone is a heavily wooded area with a high chance that the balloon will get stuck in a tree.
+
+Current setup is an Arduino Uno with the interface using a Raspberry Pi 3.  The Arduino 
+is connected to a Ham Shield Mini, to receive signals, and a servo.
