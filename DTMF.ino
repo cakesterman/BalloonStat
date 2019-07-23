@@ -15,11 +15,9 @@
  * any received DTMF tones to the screen.
 **/
 
+//These paths are temp as including files was broken unless having a absoulte path
 #include </home/pi/src/HamShield/examples/DTMF/HamShield.h>
-//#include </home/pi/src/HamShield/examples/DTMF/HamShield.cpp>
 #include </home/pi/src/HamShield/examples/DTMF/HamShield_comms.h>
-//include </home/pi/src/HamShield/examples/DTMF/HamShield_comms.cpp>
-//#include <vector>
 
 // create object for radio
 HamShield radio;
